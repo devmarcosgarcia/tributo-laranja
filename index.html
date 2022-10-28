@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tributo a Laranja</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+           background-image: url(images/bg-laranjas-fatias.jpg);
+            
+        }
+        #container-flex{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-width: 600px;
+            background-color: white;
+            border-radius: 10px;
+            border: 2px solid black;
+            
+        }
+        header{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            
+                        
+        }
+        header div{
+            padding-top: 15px;
+        }
+        header div h1{
+            text-align: center;
+            text-shadow: 1px 1px 1px orange;
+            color: rgb(59, 59, 59);
+        }
+       
+        main{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+        }
+        main div{
+            flex: 1;
+            padding: 15px;
+            margin-top: 10px;
+            background-color: rgba(255, 166, 0, 0.233);
+            border-radius: 5px;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.527);
+            font-weight: bold;
+        }
+        footer{
+            height: 30px;
+            background-color: black;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            line-height: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container-flex">
+        <header>
+            <div class="img">
+                <img src="images/laranjas.jpg" alt="">
+            </div>
+            <div>
+                <h1>Benefícios da Laranja</h1>
+            </div>
+        </header>
+        <main>
+            <div>1 - Hidrata a pele</div>
+            <div>2 - Combate a diabetes</div>
+            <div>3 - Regula o intestino</div>
+            <div>4 - Reduz o estresse</div>
+            <div>5 - Ameniza enjoos e azia</div>
+            <div>6 - Melhora absorção do ferro</div>
+            <div>7 - Limpa o organismo</div>
+            <div>8 - Prevenção de pedras nos rins</div>
+            <div>9 - Rico em Vitamina C</div>
+            <div>10 - Alivia problemas de estômago</div>
+        </main>
+        <footer>
+            <p>Página desenvolvida por Marcos Quirino Garcia</p>
+        </footer>
+    </div>
+    
+</body>
+</html>
